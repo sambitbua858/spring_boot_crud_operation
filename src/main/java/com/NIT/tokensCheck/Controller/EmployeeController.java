@@ -36,4 +36,10 @@ public class EmployeeController {
         employeeService.deleteEmplyee(id);
     }
 
+    @GetMapping("/getName")
+    public String getName(){
+        return "Adarsha";
+    }
+
+
 }
